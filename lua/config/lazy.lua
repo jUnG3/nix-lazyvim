@@ -18,6 +18,7 @@ require("lazy").setup({
   spec = {
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
+    { "akinsho/git-conflict.nvim", version = "v2.1.0", config = true },
     -- import/override with your plugins
     { import = "plugins" },
   },
